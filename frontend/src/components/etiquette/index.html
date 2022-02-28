@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="JsBarcode.all.min.js"></script>
+    <script>
+        Number.prototype.zeroPadding = function () {
+            var ret = "" + this.valueOf();
+            return ret.length == 1 ? "0" + ret : ret;
+        };
+    </script>
+<!-- <div onclick="window.print();"><button>print</button> </div> -->
+
+</head>
+<body>
+    <section class="section1">
+        <img class='detail1' src="detail1.png" alt="detail">
+        <div class='line'>
+        <div>
+        <div class="expediteur">
+            EXPEDITEUR
+        </div>
+        <div class='adresse1'>
+        <div>
+            <b>AMAZING921</b>
+        </div>
+        <div>
+            29 BOULEVARD JEAN-BAPTISTE VERANY,<br>
+             06300 , NICE, FRANCE
+        </div>
+        </div>
+    </div>
+    <div class="barcode">
+        <script type="text/javascript", src="app.js"></script>
+        <img class='barcode1' id="barcode1" />
+        <script>
+            
+            JsBarcode("#barcode1", id);
+        </script>
+        
+    </div>
+    <div class="dest">DESTINATAIRE &nbsp&nbsp&nbsp Réf DESTINATAIRE: FRANCE</div>
+    <div class="client">
+        <div>
+            VACANT Laurence
+        </div>
+        <br>
+        <div>
+            <b>
+            16 RUE DES BOERS 06100 NICE
+            </b>
+        </div>
+        <br>
+        <div class="tel">
+            TEL : 0606060606
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="section3">
+        <img class="cut" src="cut.png" alt="cut">
+    </section>
+    <section class='section2'>
+            <div class="adresse3">
+              <div>
+                 EXPEDITEUR
+              </div>
+            <div>
+                AMAZING921
+            </div><br>
+            <div>
+                29 BOULEVARD JEAN-BAPTISTE VERANY
+            </div><br>
+            <div>
+                06300 NICE
+            </div><br>
+            <div>
+                SITE DE PRISE EN CHARGE
+            </div>
+            <div>
+                LYCEE GUILLAUME APOLLINAIRE
+            </div>
+
+        </div>
+        <div class="adresse2">
+            <div>
+                <b>
+                Edité le : 27/05/2021
+                </b>
+            </div><br>
+            <div>
+                <u>
+                DESTINATAIRE
+                </u>
+            </div><br>
+            <div>
+                VACANT Laurence
+            </div><br>
+            <div>
+                16 RUE DES BOERS
+            </div><br>
+            <div>
+                06100 NICE
+            </div><br>
+            <div>
+                TEL : 0606060606
+            </div>
+            <br><br><br><br><br><br><br>
+            <div>
+                COLIS N&#186; : 
+            </div>
+            <br><br>
+            <div>
+                POIDS : 1.00KG
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

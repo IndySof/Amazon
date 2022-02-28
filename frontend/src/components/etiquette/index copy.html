@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="JsBarcode.all.min.js"></script>
+    <script>
+        Number.prototype.zeroPadding = function () {
+            var ret = "" + this.valueOf();
+            return ret.length == 1 ? "0" + ret : ret;
+        };
+    </script>
+<!-- <div onclick="window.print();"><button>print</button> </div> -->
+
+</head>
+<body>
+    <section class="section1">
+        <img class='detail1' src="detail1.png" alt="detail">
+        <div class='line'>
+        <div>
+        <div class="expediteur">
+            EXPEDITEUR
+        </div>
+        <div class='adresse1'>
+        <div>
+            <b>AMAZING921</b>
+        </div>
+        <div>
+            29 BOULEVARD JEAN-BAPTISTE VERANY,<br>
+             06300 , NICE, FRANCE
+        </div>
+        </div>
+    </div>
+    <div class="barcode">
+        <script type="text/javascript", src="app.js"></script>
+        <img class='barcode1' id="barcode1" />
+        <script>
+            
+            JsBarcode("#barcode1", id);
+        </script>
+        
+    </div>
+    <div class="dest">DESTINATAIRE &nbsp&nbsp&nbsp Réf DESTINATAIRE: FRANCE</div>
+    <div class="client">
+        <div id='name'>
+            
+        </div>
+        <br>
+        <div id='address1'>
+            
+        </div>
+        <br>
+        <div class="tel" id='phone'>
+            
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="section3">
+        <img class="cut" src="cut.png" alt="cut">
+    </section>
+    <section class='section2'>
+            <div class="adresse3">
+              <div>
+                 EXPEDITEUR
+              </div>
+            <div>
+                AMAZING921
+            </div><br>
+            <div>
+                29 BOULEVARD JEAN-BAPTISTE VERANY
+            </div><br>
+            <div>
+                06300 NICE
+            </div><br>
+            <div>
+                SITE DE PRISE EN CHARGE
+            </div>
+            <div>
+                LYCEE GUILLAUME APOLLINAIRE
+            </div>
+
+        </div>
+        <div class="adresse2">
+            <div>
+                <b>
+                Edité le : 27/05/2021
+                </b>
+            </div><br>
+            <div>
+                <u>
+                DESTINATAIRE
+                </u>
+            </div><br>
+            <div id='name1'>
+             
+            </div><br>
+            <div id='address2'>
+               
+            </div><br>
+            <div id='city'>
+             
+            </div><br>
+            <div id='phone1'>
+                <!-- TEL : 0606060606 -->
+            </div>
+            <br><br><br><br><br><br><br>
+            <div id='num'>
+                COLIS N&#186; : 
+            </div>
+            <br><br>
+            <div>
+                POIDS : 1.00KG
+            </div>
+        </div>
+    </section>
+
+    <script>
+    // import {OrderScreen} from "./screens/OrderScreen.js";
+    let phone = '06';
+    let phone1 = document.createTextNode('TEL: '+ phone);
+    document.getElementById('phone').appendChild(phone1);
+    
+    let name = 'maxime';
+    let name1 = document.createTextNode(name);
+    document.getElementById('name').appendChild(name1);
+    
+    let address = '7 rue Barla';
+    let address1 = document.createTextNode(address);
+    document.getElementById('address1').appendChild(address1);
+    
+    let name2 = 'maxime';
+    let name3 = document.createTextNode(name2);
+    document.getElementById('name1').appendChild(name3);
+
+    let address2 = '7 rue Barla';
+    let address3 = document.createTextNode(address2);
+    document.getElementById('address2').appendChild(address3);
+
+    let city = '06300 NICE';
+    let city1 = document.createTextNode(city);
+    document.getElementById('city').appendChild(city1);
+
+    let num = '12345';
+    let num1 = document.createTextNode(num);
+    document.getElementById('num').appendChild(num1);
+    </script>
+</body>
+
+</html>

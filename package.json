@@ -1,0 +1,39 @@
+{
+  "name": "amazing921",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "maxime",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-proxy-agent": "^5.0.0",
+    "ipware": "^2.0.0",
+    "jsbarcode": "^3.11.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.6.7",
+    "missing": "^0.0.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "postcss": "^8.3.0",
+    "postcss-selector-parser": "^6.0.6",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "17.4.0",
+    "npm": "8.3.1"
+  }
+}
