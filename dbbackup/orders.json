@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "6217538b75632f3a7caf2bf1"
+  },
+  "isPaid": true,
+  "isDelivered": true,
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "6217538b75632f3a7caf2bf2"
+      },
+      "name": "iPhone 13 Mini RED",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-mini-product-red-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1629907845000",
+      "price": 699,
+      "product": {
+        "$oid": "6214e95e276fcc53304d266a"
+      },
+      "qty": 1
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "Goutelard Maxime",
+    "phone": "0634462408",
+    "address": "7 rue Badat",
+    "city": "NICE",
+    "postalCode": "06300",
+    "country": "FRANCE"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 699,
+  "shippingPrice": 0,
+  "taxPrice": 104.85,
+  "totalPrice": 803.85,
+  "user": {
+    "$oid": "6213593684b6e612881bb51e"
+  },
+  "suivi": "LR500TRU1066F",
+  "sec1": "5326",
+  "sec2": "5491",
+  "createdAt": {
+    "$date": "2022-02-24T09:44:43.728Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-24T09:44:45.008Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2022-02-24T09:44:45.007Z"
+  }
+}]

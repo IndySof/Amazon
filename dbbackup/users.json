@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "621358cb84b6e612881bb508"
+  },
+  "seller": {
+    "rating": 0,
+    "numReviews": 0
+  },
+  "isAdmin": false,
+  "isSeller": false,
+  "name": "maxime",
+  "email": "goutelardmaxime89@gmail.com",
+  "phone": "0634462408",
+  "password": "$2a$08$0qPRa9OdxB7YBudd6l62w.8GTF6KVQXyW91MGxqLQ4KZC1.bWNnku",
+  "createdAt": {
+    "$date": "2022-02-21T09:18:04.002Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T09:18:15.428Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6213593684b6e612881bb51e"
+  },
+  "seller": {
+    "rating": 0,
+    "numReviews": 0
+  },
+  "isAdmin": true,
+  "isSeller": false,
+  "name": "Max",
+  "email": "goutelardmaxime89@icloud.com",
+  "phone": "0634462408",
+  "password": "$2a$08$Yxh9ONxmOrh3ztGad0a/dexkFW8elFsmqcayfUo49/i.le7xQTJWK",
+  "createdAt": {
+    "$date": "2022-02-21T09:19:50.033Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T09:19:50.033Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "seller": {
+    "rating": 0,
+    "numReviews": 0,
+    "description": "Apple Inc.",
+    "logo": "https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png",
+    "name": "Apple"
+  },
+  "isAdmin": false,
+  "isSeller": true,
+  "name": "Apple",
+  "email": "apple@apple.com",
+  "phone": "0000000",
+  "password": "$2a$08$3uf/X3OnUF5A7W3EQXNuf.0euykTQN2de6HyyLb.O8LU448zTYneO",
+  "createdAt": {
+    "$date": "2022-02-21T11:23:11.159Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T14:16:07.580Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62164c7c63fdc569244245ef"
+  },
+  "seller": {
+    "rating": 0,
+    "numReviews": 0,
+    "description": "Watches",
+    "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d0/Rolex.svg/1200px-Rolex.svg.png",
+    "name": "Rolex"
+  },
+  "isAdmin": false,
+  "isSeller": true,
+  "name": "Rolex",
+  "email": "rolex@rolex.com",
+  "phone": "0",
+  "password": "$2a$08$lxMMjr9fBZgWNw6.annKxuEkpt/Wcn/vGLA1reJv7EbGL15.fQULa",
+  "createdAt": {
+    "$date": "2022-02-23T15:02:20.624Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T15:03:05.904Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62164dd663fdc56924424633"
+  },
+  "seller": {
+    "rating": 0,
+    "numReviews": 0,
+    "description": "Cars",
+    "logo": "https://lezebre.lu/images/detailed/79/45326-Sticker-Porsche-Logo.png",
+    "name": "Porsche"
+  },
+  "isAdmin": false,
+  "isSeller": true,
+  "name": "Porsche",
+  "email": "porsche@porsche.com",
+  "phone": "0",
+  "password": "$2a$08$P1d4QeWh0aeYZj2zCzT0O.zGjwSXvoKYRDOQSI5rsFqq.eP3j1Qda",
+  "createdAt": {
+    "$date": "2022-02-23T15:08:06.267Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T15:08:59.813Z"
+  },
+  "__v": 0
+}]

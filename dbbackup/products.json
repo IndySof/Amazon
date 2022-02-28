@@ -1,0 +1,520 @@
+[{
+  "_id": {
+    "$oid": "621384a384b6e612881bb66b"
+  },
+  "name": "iPhone 13 Midnight",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448075158.jpg",
+  "price": 909,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 100,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "iPhone ",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T12:25:07.512Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T12:54:55.123Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6213879384b6e612881bb716"
+  },
+  "name": "iPhone 13 Pink",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448020748.jpg",
+  "price": 999,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 0,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "sample description",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T12:37:39.552Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T12:53:44.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6213884e84b6e612881bb75e"
+  },
+  "name": "iPhone 13 Blue",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645447979579.jpg",
+  "price": 999,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 0,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "iPhone 13 blue\n",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T12:40:46.491Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T12:55:12.268Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62138aba84b6e612881bb7e0"
+  },
+  "name": "iPhone 13 RED(product)",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645447889873.jpg",
+  "price": 909,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 3,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T12:51:06.037Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T12:51:45.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62138dd284b6e612881bb8ae"
+  },
+  "name": "iPhone 13 StarLight",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448676040.jpg",
+  "price": 909,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 5,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T13:04:18.037Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T13:04:50.861Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62138e2884b6e612881bb8c2"
+  },
+  "name": "iPhone 13 Pro Blue",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448747906.jpg",
+  "price": 1100,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 0,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T13:05:44.168Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T13:06:16.469Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62138e6384b6e612881bb8d6"
+  },
+  "name": "iPhone 13 Pro Gold",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448819895.jpg",
+  "price": 1100,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 4,
+  "rating": 5,
+  "numReviews": 1,
+  "description": "test",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "6213a0f484b6e612881bba13"
+      },
+      "name": "Apple",
+      "rating": 5,
+      "comment": "Great",
+      "createdAt": {
+        "$date": "2022-02-21T14:25:56.780Z"
+      },
+      "updatedAt": {
+        "$date": "2022-02-21T14:25:56.780Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-02-21T13:06:43.405Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T14:25:56.780Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "62138e9984b6e612881bb8f0"
+  },
+  "name": "iPhone 13 Pro Graphite",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645448862420.jpg",
+  "price": 1100,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 0,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-21T13:07:37.772Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-21T13:08:13.857Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214b78e276fcc53304d22eb"
+  },
+  "name": "iPad mini 6 Space Gray",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "/uploads\\1645524904771.jpg",
+  "price": 499,
+  "category": "iPad",
+  "brand": "Apple",
+  "countInStock": 1,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T10:14:38.940Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T10:15:18.427Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214b7cb276fcc53304d22fd"
+  },
+  "name": "iPad mini 6 Startlight",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-starlight-202109?wid=940&hei=1112&fmt=png-alpha&.v=1629840745000",
+  "price": 499,
+  "category": "iPad",
+  "brand": "Apple",
+  "countInStock": 3,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T10:15:39.935Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T10:16:08.555Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214b819276fcc53304d231d"
+  },
+  "name": "iPad mini 6 Pink",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-pink-202109?wid=940&hei=1112&fmt=png-alpha&.v=1629840714000",
+  "price": 499,
+  "category": "iPad",
+  "brand": "Apple",
+  "countInStock": 1,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "sample description",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T10:16:57.922Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T10:43:34.346Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214b837276fcc53304d2331"
+  },
+  "name": "iPad mini 6 Purple",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-purple-202109?wid=940&hei=1112&fmt=png-alpha&.v=1629840735000",
+  "price": 499,
+  "category": "iPad",
+  "brand": "Apple",
+  "countInStock": 3,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test ",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T10:17:27.543Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T12:48:24.476Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214e5a7276fcc53304d2583"
+  },
+  "name": "iPhone 13 Pro Max Sierra Blue",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=940&hei=1112&fmt=png-alpha&.v=1631652955000",
+  "price": 1099,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 10,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T13:31:19.551Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T13:31:55.523Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214e5d6276fcc53304d2597"
+  },
+  "name": "iPhone 13 Pro Max Silver",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-silver-select?wid=940&hei=1112&fmt=png-alpha&.v=1631652956000",
+  "price": 1099,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 11,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T13:32:06.186Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T13:32:50.060Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214e60a276fcc53304d25ab"
+  },
+  "name": "iPhone 13 Pro Max Gold",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-gold-select?wid=940&hei=1112&fmt=png-alpha&.v=1631652956000",
+  "price": 1099,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 2,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T13:32:58.600Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T13:33:22.013Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214e629276fcc53304d25bf"
+  },
+  "name": "iPhone 13 Pro Max Graphite",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-graphite-select?wid=940&hei=1112&fmt=png-alpha&.v=1631652956000",
+  "price": 1099,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 2,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T13:33:29.158Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T13:33:55.759Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6214e95e276fcc53304d266a"
+  },
+  "name": "iPhone 13 Mini RED",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-mini-product-red-select-2021?wid=940&hei=1112&fmt=png-alpha&.v=1629907845000",
+  "price": 699,
+  "category": "Phones",
+  "brand": "Apple",
+  "countInStock": 5,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-22T13:47:10.481Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-22T13:47:42.645Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62164cd863fdc5692442460f"
+  },
+  "name": "DATEJUST 36",
+  "seller": {
+    "$oid": "62164c7c63fdc569244245ef"
+  },
+  "image": "https://content.rolex.com/dam/2021/upright-bba-with-shadow/m126200-0020.png?impolicy=v6-upright&imwidth=840",
+  "price": 6850,
+  "category": "Watch",
+  "brand": "Rolex",
+  "countInStock": 5,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-23T15:03:52.443Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-24T09:20:09.255Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62164d3463fdc56924424621"
+  },
+  "name": "SEA-DWEALLER",
+  "seller": {
+    "$oid": "62164c7c63fdc569244245ef"
+  },
+  "image": "https://content.rolex.com/dam/2021/upright-bba-with-shadow/m126603-0001.png?impolicy=v6-upright&imwidth=840",
+  "price": 16050,
+  "category": "Watch",
+  "brand": "Rolex",
+  "countInStock": 10,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-23T15:05:24.207Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-23T15:06:43.747Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62174a8575632f3a7caf2ae5"
+  },
+  "name": "Apple Watch Series 7",
+  "seller": {
+    "$oid": "6213761f84b6e612881bb5bb"
+  },
+  "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ML493ref_VW_34FR+watch-41-alum-starlight-nc-7s_VW_34FR_WF_CO?wid=1400&hei=1400&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1630365006000%2C1631661270000",
+  "price": 479,
+  "category": "Watch",
+  "brand": "Apple",
+  "countInStock": 10,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-24T09:06:13.835Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-24T09:06:46.184Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6217544175632f3a7caf2c03"
+  },
+  "name": "MacBook Pro 14 ",
+  "seller": {
+    "$oid": "6213593684b6e612881bb51e"
+  },
+  "image": "https://storage.googleapis.com/alpine-inkwell-325917.appspot.com/devices/macbook-pro-m1-14-header.png",
+  "price": 1999,
+  "category": "MacBook Pro",
+  "brand": "Apple",
+  "countInStock": 10,
+  "rating": 0,
+  "numReviews": 0,
+  "description": "test",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2022-02-24T09:47:45.023Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-24T09:48:31.109Z"
+  },
+  "__v": 0
+}]
