@@ -67,7 +67,7 @@ export const mailgun = () =>
   });
 
 export const payOrderEmailTemplate = (order) => {
-  return `<h1>Merci de votre achat chez amazing 921</h1>
+  return `<h1>Merci de votre achat chez amazon</h1>
   <p>
   Bonjour ${order.user.name},</p>
   <p>Votre commande est validee.</p>
@@ -106,7 +106,7 @@ export const payOrderEmailTemplate = (order) => {
   <td align="right"><strong> $${order.totalPrice.toFixed(2)}</strong></td>
   </tr>
   <tr>
-  <td colspan="2">Methode de paiement:</td>
+  <td colspan="2">Méthode de paiement:</td>
   <td align="right">${order.paymentMethod}</td>
   </tr>
   </table>
@@ -120,7 +120,7 @@ export const payOrderEmailTemplate = (order) => {
   </p>
   <hr/>
   <p>
-  Merci de votre achat, a bientot.
+  Merci de votre achat, à bientot.
   </p>
   `;
 };

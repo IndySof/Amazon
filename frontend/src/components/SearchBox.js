@@ -11,6 +11,7 @@ export default function SearchBox(props) {
       <div className="row">
         <input
           type="text"
+          placeholder='rechercher...'
           name="q"
           id="q"
           onChange={(e) => setName(e.target.value)}

@@ -68,10 +68,10 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              amaz
+              Market
             </Link>
             <Link className="brand2" to="/">
-              on
+              hub
             </Link>
           </div>
           <div>
