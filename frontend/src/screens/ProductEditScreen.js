@@ -89,7 +89,7 @@ export default function ProductEditScreen(props) {
     <div>
       <form className="form" onSubmit={submitHandler}>
         <div>
-          <h1>Edit Product {productId}</h1>
+          <h1>Editer l'offre  {productId}</h1>
         </div>
         {loadingUpdate && <LoadingBox></LoadingBox>}
         {errorUpdate && <MessageBox variant="danger">{errorUpdate}</MessageBox>}
@@ -100,7 +100,7 @@ export default function ProductEditScreen(props) {
         ) : (
           <div>
             <div>
-              <label htmlFor="name">Nom</label>
+              <label htmlFor="name">Titre de l'offre</label>
               <input
                 id="name"
                 type="text"
@@ -110,7 +110,7 @@ export default function ProductEditScreen(props) {
               ></input>
             </div>
             <div>
-              <label htmlFor="price">Prix</label>
+              <label htmlFor="price">Rémunération</label>
               <input
                 id="price"
                 type="text"
@@ -118,29 +118,6 @@ export default function ProductEditScreen(props) {
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
               ></input>
-            </div>
-            <div>
-              <label htmlFor="image">Image</label>
-              <input
-                id="image"
-                type="text"
-                placeholder="Enter image"
-                value={image}
-                onChange={(e) => setImage(e.target.value)}
-              ></input>
-            </div>
-            <div>
-              <label htmlFor="imageFile">Image File</label>
-              <input
-                type="file"
-                id="imageFile"
-                label="Choose Image"
-                onChange={uploadFileHandler}
-              ></input>
-              {loadingUpload && <LoadingBox></LoadingBox>}
-              {errorUpload && (
-                <MessageBox variant="danger">{errorUpload}</MessageBox>
-              )}
             </div>
             <div>
               <label htmlFor="category">Catégorie</label>
@@ -153,23 +130,13 @@ export default function ProductEditScreen(props) {
               ></input>
             </div>
             <div>
-              <label htmlFor="brand">Marque</label>
+              <label htmlFor="brand">Nom de l'entreprise</label>
               <input
                 id="brand"
                 type="text"
                 placeholder="Enter brand"
                 value={brand}
                 onChange={(e) => setBrand(e.target.value)}
-              ></input>
-            </div>
-            <div>
-              <label htmlFor="countInStock">Nombre en stock</label>
-              <input
-                id="countInStock"
-                type="text"
-                placeholder="Enter countInStock"
-                value={countInStock}
-                onChange={(e) => setCountInStock(e.target.value)}
               ></input>
             </div>
             <div>

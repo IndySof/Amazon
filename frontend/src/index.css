@@ -336,6 +336,8 @@ img.large {
   margin: 2rem;
   height: 48rem;
   max-height: 60rem;
+  max-width: 30%;
+  width: 100%;
 }
 .card-body {
   padding: 1rem;

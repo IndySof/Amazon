@@ -82,12 +82,16 @@ function App() {
             ></Route>
           </div>
           <div>
-            <Link to="/cart">
-              Panier
-              {cartItems.length > 0 && (
-                <span className="badge">{cartItems.length}</span>
-              )}
+            {userInfo ?
+            (
+              <div></div>
+            ) :
+            (
+              <Link to="/register">
+              Créer un compte
             </Link>
+            )
+            }
             {userInfo ? (
               <div className="dropdown">
                 <Link to="#">

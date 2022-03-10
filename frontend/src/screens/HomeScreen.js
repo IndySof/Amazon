@@ -27,7 +27,7 @@ export default function HomeScreen() {
   }, [dispatch]);
   return (
     <div>
-      <h2>Top des ventes</h2>
+      {/* <h2>Top des ventes</h2>
       {loadingSellers ? (
         <LoadingBox></LoadingBox>
       ) : errorSellers ? (
@@ -47,15 +47,15 @@ export default function HomeScreen() {
             ))}
           </Carousel>
         </div>
-      )}
-      <h2>Produits</h2>
+      )} */}
+      <h2>Offres</h2>
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (
         <MessageBox variant="danger">{error}</MessageBox>
       ) : (
         <div>
-          {products.length === 0 && <MessageBox>Pas de produits trouvés</MessageBox>}
+          {products.length === 0 && <MessageBox>Pas d'offres trouvées</MessageBox>}
           <div className="row center">
             {products.map((product) => (
               <Product key={product._id} product={product}></Product>

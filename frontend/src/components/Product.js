@@ -8,21 +8,21 @@ export default function Product(props) {
     
     <div key={product._id} className="card">
       <Link to={`/product/${product._id}`}>
-        <img className="medium" src={product.image} alt={product.name} />
-      
-
       <div className="card-body">
-        
           <div>{product.name}</div>
-        
-        <Rating
+          <div>{product.brand}</div>
+          {product.price !== 0 ? 
+          (
+          <div>Stage rémunéré : {product.price}€</div>
+          ) : (
+          <div><b>Stage non rémunéré</b></div>
+          )}
+          <Rating
           rating={product.rating}
           numReviews={product.numReviews}
-        ></Rating>
-        <div className="row">
-          <div className="price">{product.price}€</div>
-          
-        </div>
+          >
+          </Rating>
+          <div>{product.description}</div>
       </div>
       </Link>
     </div>
